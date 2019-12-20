@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.ac.umons.RegistrationFormController">
+   <children>
+      <TableView fx:id="table1" layoutX="143.0" layoutY="100.0" prefHeight="200.0" prefWidth="315.0">
+        <columns>
+            <TableColumn fx:id="date" prefWidth="134.0" text="Date" />
+            <TableColumn fx:id="tache" prefWidth="140.5" text="tâche" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
